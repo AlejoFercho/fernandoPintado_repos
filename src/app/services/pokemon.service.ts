@@ -16,6 +16,6 @@ export class PokemonService {
   }
 //get pokemon
   getMoreData(name: String){
-    return this.http.get(`${this.API_URL}/${name}`);
+    return this.http.get(`${this.API_URL}/${name}`); 
   }
 }
